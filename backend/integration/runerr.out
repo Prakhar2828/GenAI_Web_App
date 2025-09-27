@@ -1,0 +1,254 @@
+ 
+      ==================================================================
+          INTEGRATION Release 2.40a: TRAFFIC NETWORK SIMULATION MODEL    
+ 
+                    Copyright 1984-2013  M. Van Aerde & Assoc., Ltd. 
+ 
+                          Small      Version - Oct. 2013     
+      ==================================================================
+ 
+  A. Array dimensions : 
+ 
+     - max number of od pairs           = 2500
+     - max number of vehicles           = 25000
+     - max number of vehicle types      = 5
+     - max number of links              = 250
+     - max node number                  = 250
+     - max links into/out of node       = 7
+     - max number of vehicles on network= 50000
+     - max zone number                  = 25
+     - max number of future time steps  = 120
+     - max signal number                = 25
+     - max number of phases per signal  = 8
+     - max incident number              = 5
+     - max number of files              = 50
+     - max number random number seeds   = 6
+     - max number equilibrium paths vt1 = 25
+     - max number of forward tree nodes = 1
+     - max number of forward minutes    = 15
+     - max number of macro zone clusters= 25
+     - max number of network lanes      = 1750
+     - max veh concurrent on network    = 5000
+     - max detector station number      = 250
+ 
+   
+     - Opening Master file: inet_i.int                                                  
+     - Master file title: INET Master File                                                                                                                                                                                                                                                                                            
+  
+     - Simulation Time (sec):     5400
+     - Output Rate 1 (sec)  :     1800
+     - Output Rate 2 (sec)  :      900
+     - Output Rate 3 (sec)  :        0
+     - Output Rate 4 (sec)  :        0
+   
+      - Master File Format   :  1
+   
+  
+     - Input  Subdirectory  : inet\                                                                                                                                                                                                                                                                                                       
+     - Output Subdirectory  : inet\output\                                                                                                                                                                                                                                                                                                
+  
+     - Summary output   : summary.out                                                 
+         
+ ---------------------------------------------
+  11. Error check flag settings      
+      - No error check values set 
+ -----------------------------
+     - Reading file:   1  INET1.DAT                                                   
+     - Reading file:   2  INET2.DAT                                                   
+  - Reading link= 100  of  228  pass 1
+  - Reading link= 200  of  228  pass 1
+  - Reading link= 228  of  228  pass 1
+     - Reading file:   3  INET3.DAT                                                   
+     - Reading file:   4  INET4.DAT                                                   
+     - Reading file:   5  INET5_2.DAT                                                 
+     - Reading file:   6  none                                                        
+     - Reading file:   7  none                                                        
+  ------------------------------------------------
+     - Building trees - distance only - pass: 1
+            - tree number =  1
+            - tree number =  2
+            - tree number =  3
+            - tree number =  4
+            - tree number =  5
+            - tree number =  6
+            - tree number =  8
+            - tree number =  9
+            - tree number =  10
+            - tree number =  12
+            - tree number =  13
+            - tree number =  14
+            - tree number =  15
+            - tree number =  16
+            - tree number =  17
+            - tree number =  18
+            - tree number =  19
+            - tree number =  20
+            - tree number =  22
+  ------------------------------------------------
+     - Building trees - distance only - pass: 2
+ ---------------------------------------------
+    
+      - Decomposing O-Ds into individual vehicles 
+      - First and last od pair : 1 30
+      - First/last od override : 0 999999
+       - Total vehicles to generate:      6988
+   - vehicle      100 generated at time=       38 secs.
+   - vehicle      200 generated at time=       84 secs.
+   - vehicle      300 generated at time=      137 secs.
+   - vehicle      400 generated at time=      182 secs.
+   - vehicle      500 generated at time=      228 secs.
+   - vehicle      600 generated at time=      279 secs.
+   - vehicle      700 generated at time=      322 secs.
+   - vehicle      800 generated at time=      372 secs.
+   - vehicle      900 generated at time=      416 secs.
+   - vehicle     1000 generated at time=      470 secs.
+   - vehicle     1100 generated at time=      534 secs.
+   - vehicle     1200 generated at time=      577 secs.
+   - vehicle     1300 generated at time=      625 secs.
+   - vehicle     1400 generated at time=      672 secs.
+   - vehicle     1500 generated at time=      729 secs.
+   - vehicle     1600 generated at time=      774 secs.
+   - vehicle     1700 generated at time=      828 secs.
+   - vehicle     1800 generated at time=      883 secs.
+   - vehicle     1900 generated at time=      923 secs.
+   - vehicle     2000 generated at time=      970 secs.
+   - vehicle     2100 generated at time=     1025 secs.
+   - vehicle     2200 generated at time=     1078 secs.
+   - vehicle     2300 generated at time=     1125 secs.
+   - vehicle     2400 generated at time=     1181 secs.
+   - vehicle     2500 generated at time=     1229 secs.
+   - vehicle     2600 generated at time=     1276 secs.
+   - vehicle     2700 generated at time=     1336 secs.
+   - vehicle     2800 generated at time=     1386 secs.
+   - vehicle     2900 generated at time=     1432 secs.
+   - vehicle     3000 generated at time=     1478 secs.
+   - vehicle     3100 generated at time=     1527 secs.
+   - vehicle     3200 generated at time=     1583 secs.
+   - vehicle     3300 generated at time=     1642 secs.
+   - vehicle     3400 generated at time=     1694 secs.
+   - vehicle     3500 generated at time=     1738 secs.
+   - vehicle     3600 generated at time=     1787 secs.
+   - vehicle     3700 generated at time=     1830 secs.
+   - vehicle     3800 generated at time=     1871 secs.
+   - vehicle     3900 generated at time=     1913 secs.
+   - vehicle     4000 generated at time=     1959 secs.
+   - vehicle     4100 generated at time=     2010 secs.
+   - vehicle     4200 generated at time=     2055 secs.
+   - vehicle     4300 generated at time=     2103 secs.
+   - vehicle     4400 generated at time=     2149 secs.
+   - vehicle     4500 generated at time=     2191 secs.
+   - vehicle     4600 generated at time=     2240 secs.
+   - vehicle     4700 generated at time=     2281 secs.
+   - vehicle     4800 generated at time=     2329 secs.
+   - vehicle     4900 generated at time=     2369 secs.
+   - vehicle     5000 generated at time=     2411 secs.
+   - vehicle     5100 generated at time=     2450 secs.
+   - vehicle     5200 generated at time=     2495 secs.
+   - vehicle     5300 generated at time=     2534 secs.
+   - vehicle     5400 generated at time=     2579 secs.
+   - vehicle     5500 generated at time=     2631 secs.
+   - vehicle     5600 generated at time=     2674 secs.
+   - vehicle     5700 generated at time=     2718 secs.
+   - vehicle     5800 generated at time=     2789 secs.
+   - vehicle     5900 generated at time=     2856 secs.
+   - vehicle     6000 generated at time=     2929 secs.
+   - vehicle     6100 generated at time=     2999 secs.
+   - vehicle     6200 generated at time=     3065 secs.
+   - vehicle     6300 generated at time=     3130 secs.
+   - vehicle     6400 generated at time=     3192 secs.
+   - vehicle     6500 generated at time=     3262 secs.
+   - vehicle     6600 generated at time=     3330 secs.
+   - vehicle     6700 generated at time=     3405 secs.
+   - vehicle     6800 generated at time=     3477 secs.
+   - vehicle     6900 generated at time=     3541 secs.
+  
+     - Completed data input phase   
+    
+     - Initiating minimum path calculations 
+        - Minimum path vehicle type 1
+    - Tree Build: 0 1 2200
+        - Minimum path vehicle type 2
+    - Tree Build: 0 2 2200
+        - Minimum path vehicle type 3
+    - Tree Build: 0 3 2200
+        - Minimum path vehicle type 4
+    - Tree Build: 0 4 2200
+        - Minimum path vehicle type 5
+    - Tree Build: 0 5 2200
+  
+     - Initiating simulation logic 
+  
+  B. Simulation speed : 
+ 
+  Calling Read 8 - First Time 
+  Return  Read 8/9 - First Time: 8 1 0
+  Calling Read 8 - First Time 
+  Return  Read 8/9 - First Time: 9 1 0
+    - sim time:     0.00  after      0.06 real mins. 
+    - sim time:    10.00  after      0.52 real mins. 
+    - sim time:    20.00  after      1.10 real mins. 
+    - sim time:    30.00  after      1.66 real mins. 
+    - sim time:    40.00  after      2.24 real mins. 
+    - sim time:    50.00  after      2.82 real mins. 
+    - sim time:    60.00  after      3.31 real mins. 
+    - sim time:    70.00  after      3.56 real mins. 
+    - sim time:    80.00  after      3.65 real mins. 
+    - sim time:    90.00  after      3.74 real mins. 
+   
+  C. Activity distribution : 
+ 
+    - activity   110 percent =    0.0    - total:     0.0
+    - activity   130 percent =    0.1    - total:     0.1
+    - activity   150 percent =    0.0    - total:     0.0
+    - activity   160 percent =    0.3    - total:     0.8
+    - activity   170 percent =    0.0    - total:     0.0
+    - activity   180 percent =    1.2    - total:     2.6
+    - activity   190 percent =    0.1    - total:     0.3
+    - activity   210 percent =    0.0    - total:     0.0
+    - activity   220 percent =    0.8    - total:     1.9
+    - activity   241 percent =    0.1    - total:     0.3
+    - activity   243 percent =    0.0    - total:     0.0
+    - activity   244 percent =    0.2    - total:     0.5
+    - activity   245 percent =    0.0    - total:     0.0
+    - activity   246 percent =   16.4    - total:    36.7
+    - activity   251 percent =    0.1    - total:     0.3
+    - activity   252 percent =    0.3    - total:     0.6
+    - activity   253 percent =    0.1    - total:     0.3
+    - activity   254 percent =    0.1    - total:     0.3
+    - activity   255 percent =   18.8    - total:    42.3
+    - activity   256 percent =   12.3    - total:    27.5
+    - activity   270 percent =    0.3    - total:     0.6
+    - activity   280 percent =    0.1    - total:     0.1
+    - activity   290 percent =    0.0    - total:     0.0
+    - activity   330 percent =    0.0    - total:     0.0
+    - activity   410 percent =    2.4    - total:     5.4
+    - activity   420 percent =    0.1    - total:     0.2
+    - activity   530 percent =    5.7    - total:    12.9
+    - activity   540 percent =    1.8    - total:     4.0
+    - activity   600 percent =    0.5    - total:     1.2
+    - activity   611 percent =    0.8    - total:     1.7
+    - activity   612 percent =    0.0    - total:     0.1
+    - activity   613 percent =    5.8    - total:    13.0
+    - activity   614 percent =    0.4    - total:     0.8
+    - activity   615 percent =    0.0    - total:     0.0
+    - activity   616 percent =    0.5    - total:     1.0
+    - activity   618 percent =   30.3    - total:    68.1
+    - activity   620 percent =    0.1    - total:     0.1
+    - activity   630 percent =    0.2    - total:     0.4
+    - activity   640 percent =    0.0    - total:     0.0
+    - activity   710 percent =    0.0    - total:     0.1
+    - activity   720 percent =    0.0    - total:     0.0
+    - activity   730 percent =    0.1    - total:     0.2
+ ---------------------------------------------
+  D. Simulation summary statistics: 
+                                    
+     - Simulation clock time       :  5400
+     - Total simulation horizon    :  5400
+     - Real world time elapsed     :  224
+     - Number of errors found      :  0
+                                     
+     - Scheduled departures        :  6988
+     - Deferred departures         :  0
+     - Current vehicles en-route   :  0
+     - Total trips completed       :  6988
+                                     

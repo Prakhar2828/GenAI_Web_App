@@ -1,0 +1,5 @@
+flask
+flask_sqlalchemy
+flask-cors
+PyPDF2
+requests

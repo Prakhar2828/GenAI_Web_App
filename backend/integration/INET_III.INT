@@ -1,0 +1,35 @@
+INET Master File  - FORMAT III
+ 5400 -1800  -900     3     0
+    2     2     2     2     2
+  600   600   600   600   600
+    0     0     0     0     0
+    1     1     1     1     1
+    0     0     0     0     0
+    0     0     0     0     0
+    1     1     1     1     1
+ 0.05  0.05  0.05  0.00  0.05
+inet\
+inet\output\
+INET1.dat
+INET2.dat
+INET3.dat
+INET4.dat
+INET5_2.dat
+none
+none
+none
+none
+INET10.out
+INET11.out
+INET12.out
+INET13.out
+none
+INET15.out
+INET16.out
+none
+none
+none
+lane_stp.dat
+det_loca.dat
+scn_view.dat
+

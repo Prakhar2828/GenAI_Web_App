@@ -1,0 +1,41 @@
+QNET master file - Format III
+2700  900  300    3    0
+   2    2    2    2    2
+ 150    0    0    0    0
+   0    0    0    0    0
+   1    1    1    1    1
+   0    0    0    0    0
+   0    0    0    0    0
+   1    1    1    1    1
+0.05  0.0  0.0  0.0  0.0  
+qnet\
+qnet\output\
+qnet1.dat
+qnet2.dat
+qnet3.dat
+qnet4.dat
+qnet5.dat
+none
+none
+none
+none
+qnet10.out
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none

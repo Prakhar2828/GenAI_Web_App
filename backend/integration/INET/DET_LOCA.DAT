@@ -1,0 +1,11 @@
+INET Detector Station Locations
+8  0
+1  10  15  0.6  0.005  20   Station 1-Eastbound
+2  10  23  0.6  0.005  20   Station 2-Eastbound
+3  10  31  0.6  0.005  20   Station 3-Eastbound
+4  10  35  0.6  0.005  20   Station 4-Eastbound
+5  1   10  0.6  0.005  20   Station 5-Westbound
+6  1   14  0.6  0.005  20   Station 6-Westbound
+7  1   22  0.6  0.005  20   Station 7-Westbound
+8  1   30  0.6  0.005  20   Station 8-Westbound
+
